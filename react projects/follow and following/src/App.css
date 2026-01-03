@@ -1,0 +1,70 @@
+body {
+font-family: Arial, sans-serif;
+background: #f5f5f5;
+}
+
+
+.card {
+width: 650px;
+margin: 40px auto;
+border: 2px solid #000;
+padding: 20px;
+background: #fff;
+}
+
+
+.profile {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+
+.avatar {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background: #66a7e2;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+font-size: 24px;
+}
+
+
+.info {
+flex: 1;
+}
+
+
+.address {
+color: #555;
+}
+
+
+.stats {
+display: flex;
+gap: 40px;
+margin-top: 20px;
+}
+
+
+.stats div {
+display: flex;
+flex-direction: column;
+}
+
+
+.follow-btn {
+padding: 8px 18px;
+border-radius: 8px;
+border: 2px solid #555;
+background: white;
+cursor: pointer;
+}
+
+
+.follow-btn:hover {
+background: #eee;
+}
